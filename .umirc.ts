@@ -2,7 +2,7 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
 
-  toRaw: 1113331212,
+  
   nodeModulesTransform: {
     aa: hh,
     age:11,
