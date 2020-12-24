@@ -5,7 +5,7 @@ export default defineConfig({
   nodeModulesTransform: {
 
 
-    year: 2030,
+    year: 12030,
     month: 31,
     day: 333,
     hour: 11
