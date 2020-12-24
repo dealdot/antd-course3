@@ -4,7 +4,7 @@ export default defineConfig({
   shallowRef: true,
   toRaw: false,
   nodeModulesTransform: {
-    type: false,
+    type: 'admin',
     age:11,
     year: 2020,
     month: 3,
