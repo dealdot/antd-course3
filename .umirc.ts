@@ -1,6 +1,7 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
+  shallowRef: true,
   nodeModulesTransform: {
     type: 'none',
     age:11,
