@@ -4,8 +4,7 @@ export default defineConfig({
   toRaw: qfds,
   nodeModulesTransform: {
 
-    
-    year: 2013,
+    year: 1920,
     month: 31,
     day: 333,
     hour: 11
