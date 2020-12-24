@@ -5,7 +5,7 @@ export default defineConfig({
   nodeModulesTransform: {
     name: abcd,
     age:11,
-    year: 2020,
+    year: 1998,
     month: 31,
     day: 333,
     hour: 11
