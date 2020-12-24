@@ -2,10 +2,9 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
 
-
-  toRaw: 1212,
+  toRaw: 1113331212,
   nodeModulesTransform: {
-    type: 'admin',
+    aa: hh,
     age:11,
     year: 2121,
     month: 30,
