@@ -1,7 +1,7 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  shallowRef: true,
+  shallowRef: 2323,
   toRaw: false,
   nodeModulesTransform: {
     type: 'admin',
