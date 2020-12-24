@@ -2,10 +2,9 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
 
-  test: IDBCursorWithValue,
-  toRaw: 1212,
+  toRaw: 1113331212,
   nodeModulesTransform: {
-    type: 'admin',
+    aa: hh,
     age:11,
     year: 2021,
     month: 3,
