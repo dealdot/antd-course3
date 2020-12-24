@@ -2,8 +2,9 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
   shallowRef: true,
+  toRaw: false,
   nodeModulesTransform: {
-    type: 'none',
+    type: false,
     age:11,
     year: 2020,
     month: 3,
