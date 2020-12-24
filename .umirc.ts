@@ -7,8 +7,8 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'admin',
     age:11,
-    year: 2021,
-    month: 3,
+    year: 2121,
+    month: 30,
     day: 333,
     hour: 11
   },
