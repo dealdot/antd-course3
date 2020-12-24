@@ -2,7 +2,7 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
   shallowRef: 2323,
-  toRaw: false,
+  toRaw: 1212,
   nodeModulesTransform: {
     type: 'admin',
     age:11,
