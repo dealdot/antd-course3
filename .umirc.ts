@@ -9,7 +9,7 @@ export default defineConfig({
     day: 333,
     hour: 333,
     dd: 33333,
-    cc: xccc
+    cc: xccc0-0-0
   },
   routes: [
     { path: '/', component: '@/pages/index' },
