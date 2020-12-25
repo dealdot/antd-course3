@@ -10,6 +10,6 @@ export default defineConfig({
     hour: 11
   },
   routes: [
-    { path: '/', component: '@/pages/index' },
+    { paths: '/', component: '@/pages/index' },
   ],
 });
