@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Card} from 'antd';
+import { Card, Button} from 'antd';
 import {connect} from 'dva'
 const namespace = 'puzzlecards'
 
+//这个state是所有namespace下的集合，获取某个namesapce下的state只需要 state[namespace]指定即可
 const mapStateToProps = (state) => {
     const cardList = state[namespace].data
     return {
@@ -12,14 +13,15 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onDidMount: () => {
-            // const action = {
-            //     type: `${namespace}/addNewCard`,
-            //     payload: newCard
-            // }
-            dispatch({
-                type: `${namespace}/queryInitCards`
-            })
+      onClickAdd: (newCard) => {
+            const action = {
+                type: `${namespace}/addNewCard`,
+                payload: newCard
+            }
+            dispatch(action)
+            // dispatch({
+            //     type: `${namespace}/queryInitCards`
+            // })
         }
     }
 }
@@ -80,7 +82,7 @@ export default class PuzzleCardsPage extends Component {
   }
   */
   componentDidMount(){
-    this.props.onDidMount()
+   // this.props.onDidMount()
   }
   render() {
     return (
@@ -97,12 +99,12 @@ export default class PuzzleCardsPage extends Component {
             );
           })
         }
-        {/* <div>
+        <div>
             <Button onClick={ () => this.props.onClickAdd({
                 setup: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                 punchline: 'here we use dva',
             })}>添加卡片</Button>
-        </div> */}
+        </div>
       </div>
     );
   }

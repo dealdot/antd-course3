@@ -9,7 +9,7 @@ export default () => {
   };
   
   return (
-    <Card style={style} actions={[<a>操作一hello</a>, <a>操作二world</a>]}>
+    <Card style={style} actions={[<a>操作一</a>, <a>操作二</a>]}>
       <Card.Meta
         avatar={<img 
           alt=""

@@ -25,7 +25,7 @@ let data = [
         res.json({
           result: data,
         })
-      }, 250)
+      }, 500)
     },
     'delete /api/cards/:id': function (req, res, next) {
       data = data.filter(v => v.id !== parseInt(req.params.id));

@@ -1,9 +1,9 @@
 import {Component} from 'react';
-import {Layout, Menu, Icon} from 'antd'
+import {Layout, Menu} from 'antd'
 //import styles from './index.less';
-import { ChromeOutlined,GooglePlusSquareFilled } from '@ant-design/icons';
+import { ChromeOutlined, GooglePlusSquareFilled,MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons';
 
-import { Link} from 'umi';
+import { Link } from 'umi';
 const {Header, Footer, Sider, Content} = Layout
 const SubMenu = Menu.SubMenu
 

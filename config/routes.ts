@@ -20,8 +20,13 @@ export default [
                 component: 'List/List'
             },
             {
+                path: '/form',
+                component: 'Form/Form'
+            },
+            {
                 path: '/dashboard',
                 routes: [
+                  { path: '/dashboard', component: 'Dashboard/Analysis' },
                   { path: '/dashboard/analysis', component: 'Dashboard/Analysis' },
                   { path: '/dashboard/monitor', component: 'Dashboard/Monitor' },
                   { path: '/dashboard/workplace', component: 'Dashboard/Workplace' }
